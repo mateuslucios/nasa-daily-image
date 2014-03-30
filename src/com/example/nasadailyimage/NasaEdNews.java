@@ -14,6 +14,8 @@ package com.example.nasadailyimage;
 import java.net.URL;
 import java.util.ArrayList;
 
+import com.example.nasadailyimage.EdNewsHandler.NewsItem;
+
 import android.app.ListFragment;
 import android.os.Bundle;
 import android.os.Handler;
@@ -24,9 +26,11 @@ import android.view.ViewGroup;
 public class NasaEdNews extends ListFragment {
 
     private static final String URL = "http://www.nasa.gov/rss/educationnews.rss";
-    @SuppressWarnings("unused")
+
     private Handler handler;
+    
     private ArrayList<NewsItem> values = new ArrayList<EdNewsHandler.NewsItem>();
+    
     static private EdNewsAdapter listAdapter;
 
     public ArrayList<NewsItem> getValues() {
