@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NasaDailyImage</string>
+    <string name="action_settings">Settings</string>
+    <string name="refresh_button_label">Refresh</string>
+    <string name="set_wallpaper_button_label">Set Wallpaper</string>
+    <string name="image_tooltip">Image from NASA</string>
+    <string name="iotdContentDescription">No clue about this one</string>
+
+</resources>
